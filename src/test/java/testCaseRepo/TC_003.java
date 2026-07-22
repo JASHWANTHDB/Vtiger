@@ -36,5 +36,10 @@ public class TC_003 extends BaseClass {
 		String city = eutil.getDataFromExcel("Leads", 8, 12);
 		cr.createNewLead(firstNameDropDown, firstName, lastName, companyName, mobile, email, designation, noofemp, leadsSourceDropDown, country, state, city);
 	}
+	@Test
+	public void bashaRuns() {
+		
+		System.out.println("good evening");
+	}
 	
 }
