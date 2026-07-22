@@ -41,7 +41,7 @@
 	</dependencies>
 	<profiles>
 		<profile>
-		<id>group and batch</id>
+		<id>group</id>
 			<build>
 				<plugins>
 					<plugin>
